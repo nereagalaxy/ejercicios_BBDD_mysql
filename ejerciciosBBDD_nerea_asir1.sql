@@ -63,7 +63,7 @@ use ejercicioD;
 		add primary key (NumMatricula);
 
 	alter table Profesor
-		add primary key (IdProfesor)
+		add primary key (IdProfesor),
 		add unique key (NIF_P);
 
 	alter table Asignatura
